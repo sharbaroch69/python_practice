@@ -1,0 +1,11 @@
+class employe:
+    language = "python" #this is a class attribute
+    salary = 50000
+
+awais = employe()
+awais.name = "Awais" # this is an instance atttribute
+awais.salary = 70000 # Note: instance attributes take preference over class attributes during attribute access
+print(awais.name, awais.language, awais.salary)
+
+# here salary class was already defined but 
+# we created instance attribute of salary and it printed the instance not the class
