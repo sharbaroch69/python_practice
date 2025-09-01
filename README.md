@@ -27,7 +27,7 @@ Project 1/ → Mini Project
 
 1. **Clone this repository:**  
     ```bash
-    git clone https://github.com/sharbaroch69/python_practice.git
+    git clone https://github.com/the-awais/python_practice.git
     ```
 
 2. **Navigate into the folder:**  
@@ -63,3 +63,4 @@ Thanks for dropping by — happy coding!
 ---
 
 *(Feel free to update chapter names or add mini-descriptions for projects as you grow your repo.)*
+
