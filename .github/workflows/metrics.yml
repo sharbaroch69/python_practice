@@ -1,0 +1,26 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}] # Updates every day at midnight
+  workflow_dispatch: # Allow manual trigger
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Replace with your GitHub PAT stored as a secret
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Basic sections
+          user: the-awais
+          base: header, activity, community, repositories, metadata
+
+          # Popular plugins
+          plugin_isocalendar: yes        # Commit calendar
+          plugin_languages: yes          # Languages used
+          plugin_languages_details: bytes-size, percentage
+          plugin_habits: yes             # Coding habits
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_followup: yes           # Issues/PR follow-up
+          plugin_stargazers: yes         # Stargazers evolution
