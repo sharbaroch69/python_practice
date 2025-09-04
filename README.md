@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python Practice (CodeWithHarry)
 
 Welcome! This repository contains my Python learning journey following the **CodeWithHarry** tutorials.
@@ -64,3 +65,6 @@ Thanks for dropping by — happy coding!
 
 *(Feel free to update chapter names or add mini-descriptions for projects as you grow your repo.)*
 
+=======
+"# python_practice" 
+>>>>>>> e42382bac968293634cf20dfbf4af3239aa5ef2f
